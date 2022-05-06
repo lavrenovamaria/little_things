@@ -45,19 +45,24 @@ int main()
 {
     int a = 5, b = 10, c = 15;
 
-	const int* foo;     // pointer to constant int.
-	foo = &a;           // assignment to where foo points to.
+	const int* foo;
+	// pointer to constant int.
+	foo = &a;
+	// assignment to where foo points to.
 
 	/* dummy statement*/
-	*foo = 6;           // the value of a can´t get changed through the pointer.
+	*foo = 6;
+	// the value of a can´t get changed through the pointer.
 
-	foo = &b;           // the pointer foo can be changed.
+	foo = &b;
+	// the pointer foo can be changed.
 
 
 
-	int *const bar = &c; 	// constant pointer to int 
-							// note, you actually need to set the pointer 
-							// here because you can't change it later ;)
+	int *const bar = &c;
+	// constant pointer to int 
+	// note, you actually need to set the pointer 
+	// here because you can't change it later ;)
 
 	*bar = 16;            // the value of c can be changed through the pointer.    
 
