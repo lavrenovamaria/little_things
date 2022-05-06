@@ -1,7 +1,7 @@
 # little_things
 
 <details>
-  <summary> int const* = const int * </summary>
+  <summary> int const* = const int * | int * const </summary>
 
 ## int const* и const int * это указатель на константный инт
 
