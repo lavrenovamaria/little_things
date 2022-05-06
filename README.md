@@ -38,7 +38,7 @@ int main()
 }
 ```
 ![Screenshot from 2022-05-06 11-58-41](https://user-images.githubusercontent.com/84707645/167103544-74c852e3-00dd-4a8c-8625-37350317c481.png)
-  
+
 ```с
 	int a = 5, b = 10, c = 15;
 	const int* foo;     // pointer to constant int.
