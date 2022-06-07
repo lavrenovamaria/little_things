@@ -1,22 +1,31 @@
 from datetime import datetime
 
 
-def for_loop():
-    start_time = datetime.now()
+def timeit(method):
+    def wrapper():
+        start_time = datetime.now()
+        res = method()
+        print(datetime.now() - start_time)
+        return res
+    return wrapper
+
+
+@timeit
+def list_generator():
     res = []
     for i in range(10**4):
         if i % 2 == 0:
             res.append(i)
-        print(datetime.now() - start_time)
+        print("List_generator")
         return res
 
 
-def list_generator():
-    start_time = datetime.now()
+@timeit
+def for_loop():
     l = [x for x in range(10**4) if x % 2 == 0]
-    print(datetime.now() - start_time)
+    print("For loop")
     return l
 
 
-l1 = for_loop()
 l2 = list_generator()
+l1 = for_loop()
