@@ -1,0 +1,1 @@
+[Python для начинающих: какая разница между tuple, list и set?](https://medium.com/nuances-of-programming/python-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D1%8E%D1%89%D0%B8%D1%85-%D0%BA%D0%B0%D0%BA%D0%B0%D1%8F-%D1%80%D0%B0%D0%B7%D0%BD%D0%B8%D1%86%D0%B0-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83-tuple-list-%D0%B8-set-49226a73c2cb)
