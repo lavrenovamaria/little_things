@@ -1,0 +1,1 @@
+[ХАБР: Что такое *args и **kwargs в Python](https://habr.com/ru/company/ruvds/blog/482464/)
