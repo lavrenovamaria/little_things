@@ -2,18 +2,18 @@ from datetime import datetime
 
 
 def timeit(method):
-    def wrapper():
+    def wrapper(*args, **kwargs):
         start_time = datetime.now()
-        res = method()
+        res = method(*args, **kwargs)
         print(datetime.now() - start_time)
         return res
     return wrapper
 
 
 @timeit
-def list_generator():
+def list_generator(n):
     res = []
-    for i in range(10**4):
+    for i in range(n):
         if i % 2 == 0:
             res.append(i)
         print("List_generator")
@@ -21,11 +21,11 @@ def list_generator():
 
 
 @timeit
-def for_loop():
-    l = [x for x in range(10**4) if x % 2 == 0]
+def for_loop(n):
+    l = [x for x in range(n) if x % 2 == 0]
     print("For loop")
     return l
 
 
-l2 = list_generator()
-l1 = for_loop()
+l2 = list_generator(10**4)
+l1 = for_loop(10**4)
