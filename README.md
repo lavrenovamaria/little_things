@@ -21,7 +21,7 @@ int main()
     printf("Address of p: %p\n", &p);
     printf("------------------------");
     printf("\n");
-    //Compilation error
+    //Compilation error  
     //*p = 7;
   
     const int q2 = 7;
