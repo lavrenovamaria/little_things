@@ -115,5 +115,15 @@ public class SetPropertyOfProperties {
 	}
 }
 ```
+
+```
+prop.setProperty(20, OOPS): C++
+--listing properties--
+50=SFDC
+40=PHP
+30=JAVA
+20=OOPS
+10=C
+```
 	
 </details>
