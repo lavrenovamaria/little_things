@@ -166,6 +166,24 @@ ApplicationContext определяет базовые спецификации 
 Hierarchical Bean Factory
 Listener
 Благодаря вышеприведенному расширению мы можем в основном узнать характеристики расширенного контейнера IOC(Инверсия управления (англ. Inversion of Control, IoC)), что также является ключевой частью изучения всего контейнера ApplicationContext.
+	
+
 ![image](https://user-images.githubusercontent.com/84707645/190183639-132fd544-b34f-4dba-9390-94c16d164f68.png)
+	
+1. [ApplicationContext](https://blog.csdn.net/ligel136738/article/details/113533132?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522166316207716782388017187%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=166316207716782388017187&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-1-113533132-null-null.142^v47^pc_rank_34_default_2,201^v3^control_1&utm_term=ConfigurableApplicationContext&spm=1018.2226.3001.4187)
+- Inherited from ListableBeanFactory interface: factory methods for accessing application components
+	
+- Inherited from the ResourceLoader interface: load file resources in a generic way
+	
+- Inherited from the ApplicationEventPublisher interface: registering and publishing events
+	
+- Inherited from the MessageSource interface: process messages, support internationalization
+
+Определенный из контекста родительского приложения всегда будет иметь приоритет в дочернем контексте.
+
+2. ConfigurableApplicationContext
+ConfigurableApplicationContext является подклассом ApplicationContext, и основная задача этого интерфейса — настроить функцию контекста приложения.
+	
+
 
 </details>
