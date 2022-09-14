@@ -182,8 +182,19 @@ Listener
 Определенный из контекста родительского приложения всегда будет иметь приоритет в дочернем контексте.
 
 2. ConfigurableApplicationContext
-ConfigurableApplicationContext является подклассом ApplicationContext, и основная задача этого интерфейса — настроить функцию контекста приложения.
-	
 
+ConfigurableApplicationContext является подклассом ApplicationContext, и основная задача этого интерфейса — настроить функцию контекста приложения.
+
+[Дополнительно](https://blog.csdn.net/ligel136738/article/details/113448427)
+
+</details>
+
+<details>
+  <summary> ApplicationEventMulticaster </summary>
+ApplicationEventMulticaster — это интерфейс трансляции событий в spring, который отвечает за трансляцию и публикацию событий.
+
+Если внутри контейнера есть bean-компонент с именем applicationEventMulticaster, это устанавливает этот bean-компонент в качестве распространителя событий в контексте.
+	
+Если в контейнере нет компонента, он будет по умолчанию SimpleApplicationEventMulticaster.
 
 </details>
