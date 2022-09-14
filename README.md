@@ -197,4 +197,4 @@ ApplicationEventMulticaster — это интерфейс трансляции �
 	
 Если в контейнере нет компонента, он будет по умолчанию SimpleApplicationEventMulticaster.
 
-</details>
+</details> 
