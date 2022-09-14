@@ -90,6 +90,30 @@ int main()
 
 Строка key_ele — представляет ключевой элемент, для которого должно быть установлено значение.
 	
-Строка val_ele — представляет элемент значения для данного ключа.	
+Строка val_ele — представляет элемент значения для данного ключа.
+
+Тип возвращаемого значения метода — Object , он возвращает старое значение, связанное с данным ключом, если он существует, в противном случае он возвращает null.
+
+```java
+import java.io.*;
+import java.util.*;
+
+public class SetPropertyOfProperties {
+	public static void main(String arg[]) throws Exeption {
+	Properties prop = new Properties();
+	prop.put("10", "C");
+	prop.put("20", "C++");
+	prop.put("30", "JAVA");
+	prop.put("40", "PHP");
+	prop.put("50", "SDFC");
+	
+	Object ob = prop.setProperty("20", "OOPS")
+	
+	System.out.println("prop.setProperty(20, OOPS): " + ob);
+	
+	prop.list(System.out);
+	}
+}
+```
 	
 </details>
