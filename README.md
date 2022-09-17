@@ -299,7 +299,7 @@ Open API - это спецификация, но только для верси�
 	
 ![image](https://user-images.githubusercontent.com/84707645/190857090-9ac60e62-069a-440b-a9dd-681cae6cb4c2.png)
 
-![image](https://user-images.githubusercontent.com/84707645/190857240-d4ab9476-ee65-47f1-ab4d-0a4f0bbda285.png)
+![image](https://user-images.githubusercontent.com/84707645/190857444-1e080c6a-f192-4319-8740-ec404474b624.png)
 	
 ![image](https://user-images.githubusercontent.com/84707645/190857324-e567a169-8893-4dae-a8fd-4851be96c07d.png)
 
