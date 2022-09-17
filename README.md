@@ -295,5 +295,6 @@ IOC это декомпозиция сложной системы на объе�
 <details>
   <summary> API + Swagger </summary>
 ![image](https://user-images.githubusercontent.com/84707645/190857090-9ac60e62-069a-440b-a9dd-681cae6cb4c2.png)
+
 Open API - это спецификация, но только для версии 3.0 и выше. Swagger - всё остальное(но иногда и спецификация). [Лекция](https://www.youtube.com/watch?v=lYjm2w8-ERI)
 </details>
