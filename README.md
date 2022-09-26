@@ -308,3 +308,31 @@ The Interface Segregation Principle (ISP) - не полагайтесь на т�
 The Dependency Inversion Principle (DIP) - политики более низкого уровня должны зависеть от политик более высокого уровня. Lower level policies should depend on higher level policies.
 
 </details>
+		
+<details>
+  <summary> GRASP </summary>
+</details>
+		
+<details>
+  <summary> Threads, Concurrency, Dead Locks, Race Conditions </summary>
+</details>
+
+<details>
+  <summary> JVM Memory Model, Stack, Heap, Eden, Old Generation, New Generation </summary>
+</details>
+		
+<details>
+  <summary> Garbage Collection, Reachable and Unreanhable Objects </summary>
+</details>
+		
+<details>
+  <summary> Patterns </summary>
+</details>
+		
+<details>
+  <summary> Spring Proxy Mechanisms and Spring Proxy Object(@Transactional) </summary>
+</details>
+		
+<details>
+  <summary> Pojo/Hibernate Proxy Object </summary>
+</details>
