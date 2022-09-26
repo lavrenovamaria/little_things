@@ -312,12 +312,8 @@ The Single Responsibility Principle (SRP) - принцип единой отве
 	
 <img width="710" alt="Screen Shot 2022-09-26 at 4 12 57 PM" src="https://user-images.githubusercontent.com/84707645/192285822-a65d0ebd-a58c-49e0-ac91-9b0d9f2b6d29.png">
 
-```diff
--Gather together those things that change for the same reasons and at the same times. Separate those things that change for different reasons or at different times.
-```
-
-<p style='color:red'>Gather together those things that change for the same reasons and at the same times. Separate those things that change for different reasons or at different times..</p>
-
+🔴Gather together those things that change for the same reasons and at the same times. Separate those things that change for different reasons or at different times.
+	
 The Open-Closed Principle (OCP) - принцип открытого-закрытого, отделяйте модули, которые часто меняются, от модулей, которые меняются реже, с помощью уровня абстракции. Separate modules that frequently change from modules that change less frequently with a layer of abstraction.
 
 The Liskov Substitution Principle (LSP) - реализация интерфейса никогда не должна нарушать контракт между этим интерфейсом и его пользователями. The implementation of an interface must never violate the contract between that interface and its users.
