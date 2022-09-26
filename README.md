@@ -346,7 +346,47 @@ The Open-Closed Principle (OCP) - принцип открытого-закрыт
 	
 <img width="420" alt="Screen Shot 2022-09-26 at 5 51 07 PM" src="https://user-images.githubusercontent.com/84707645/192309185-4d1c0c4b-aa17-4245-a765-7c736469b5a2.png">
 
-
+Задача с рисованием кругов и квадратов: 
+```
+enum ShapeType {circle, square};
+struct Shape
+{
+ 	ShapeType itsType;
+};
+```
+Суть в том, что если я захочу туда добавить рисование треугольника, то пришлось бы добавить его в enum, модофицировать весь код. И так для каждого нового вида фигур(плохо плохо)
+	
+Решение, которое соблюдает OCP:
+```
+public interface Shape
+{
+ 	void Draw();
+}
+	
+public class Square : Shape
+{
+ 	public void Draw()
+ 	{
+ 		// нарисовать квадрат
+ 	}
+}
+	
+public class Circle : Shape
+{
+ 	public void Draw()
+ 	{
+ 		// нарисовать круг
+ 	}
+}
+	
+public void DrawAllShapes(IList shapes)
+{
+ 	foreach(Shape shape in shapes)
+ 	shape.Draw();
+}
+```
+Если мы захотим расширить поведение метода DrawAllShapes, чтобы он умел рисовать еще один вид фигур, то достаточно будет
+добавить новый класс, производный от Shape(вуаля)
 🔴Separate modules that frequently change from modules that change less frequently with a layer of abstraction.
 
 The Liskov Substitution Principle (LSP) - реализация интерфейса никогда не должна нарушать контракт между этим интерфейсом и его пользователями. The implementation of an interface must never violate the contract between that interface and its users.
