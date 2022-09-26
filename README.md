@@ -387,6 +387,7 @@ public void DrawAllShapes(IList shapes)
 ```
 Если мы захотим расширить поведение метода DrawAllShapes, чтобы он умел рисовать еще один вид фигур, то достаточно будет
 добавить новый класс, производный от Shape(вуаля)
+
 🔴Separate modules that frequently change from modules that change less frequently with a layer of abstraction.
 
 The Liskov Substitution Principle (LSP) - реализация интерфейса никогда не должна нарушать контракт между этим интерфейсом и его пользователями. The implementation of an interface must never violate the contract between that interface and its users.
