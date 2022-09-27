@@ -482,7 +482,10 @@ public interface TimerClient
 </details>
 		
 <details>
-  <summary> GRASP </summary>
+  <summary> GRASP. DESIGNING OBJECTS WITH RESPONSIBILITIES(general responsibility assignment software patterns — общие шаблоны распределения ответственностей) </summary>
+  
+[General Responsibility Assignment Software Patterns](https://gist.github.com/dimabory/56e36474a1bb5573c08f26805a978fb5)
+
 </details>
 		
 <details>
