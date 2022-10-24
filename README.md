@@ -19,7 +19,7 @@ int main()
     printf("\n");
     printf("Second const* p after turn to 5(printed as *p): %d\n", *p);
     printf("Address of p: %p\n", &p);
-    printf("------------------------");
+    printf("------------------------"); 
     printf("\n");
     //Compilation error  
     //*p = 7;
